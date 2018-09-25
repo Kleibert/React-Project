@@ -1,0 +1,98 @@
+.home-style{
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    top:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+}
+.navbar{
+    margin-bottom: 0 !important;
+    font-size: 20px;
+    border-bottom-color: #de7114;
+    padding-top:20px;
+    padding-bottom:20px; 
+}
+.navbar a{
+   color:#C0B9B9;
+  
+}
+.animation{
+    display: flex;
+    position: relative;
+    margin: auto;
+    width: 50%;
+    height: 30%;
+    background-color: #de7114;
+    padding: 5px;
+    -webkit-animation: animationMove 5s; /* Safari 4.0 - 8.0 */
+    animation: fade 5s;
+    align-items: center;
+}
+.text-animation{
+    text-align: center;
+    margin: auto;
+    position: relative;
+    animation: animationMove 5s;
+    color: #fff;
+    font-size: 20px;
+}
+.text-animation h2{
+    font-weight: bold;
+}
+
+.img-mission{
+    max-width: 300px;
+    max-height: 250px;
+    padding: 10px;
+}
+
+.services-style{
+    background-color: #f9f9f9;
+    padding: 30px 20px;
+    
+}
+.services-style h1{
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.services-style span{
+    font-size: 40px;
+    color: #de7114;
+    
+}
+.contact-style{
+    height:  80vh;
+    display: flex;
+    align-items: center;
+}
+.footer{
+    background-color: #de7114;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+/*Keyframes*/
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes animationMove {
+    from {top:50%;}
+    to {top: 0;}
+}
+
+/* Standard syntax */
+@keyframes animationMove {
+    from {top: 50%;}
+    to {top: 0;}
+}
+@-webkit-keyframes fade {
+    0%   { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  /* Standard syntax */
+ @keyframes animationMove {
+    from {top: 50%;}
+    to {top: 0;}
+}
